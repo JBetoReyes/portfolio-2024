@@ -6,7 +6,7 @@ export default function Header() {
             <div className="container" data-type="wide">
                 <div className="site-header__inner">
                     <a href="#">
-                        <img src="/Logo.svg" alt="Jose ARQ" />
+                        <img src="./Logo.svg" alt="Jose ARQ" />
                     </a>
                     <Nav />
                     <div className="site-header__theme margin-inline-start-auto">
