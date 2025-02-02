@@ -1,8 +1,8 @@
-$-ff-sans: system-ui, sans-serif;
-$-ff-serif: serif;
+$-ff-sans: 'Chivo', sans-serif;
+$-ff-serif: 'Dela Gothic One', serif;
 
 $font-family-base: $-ff-sans;
-$font-family-accent: $-ff-sans;
+$font-family-accent: $-ff-serif;
 
 $font-sizes: (
   "small": (
@@ -16,10 +16,10 @@ $font-sizes: (
     "200": 0.875rem,
   ),
   "large": (
-    "900": 3.75rem,
+    "900": 5.3125rem,
     "800": 3rem,
     "700": 1.75rem,
-    "600": 1.3125rem,
+    "600": 1.5rem,
     "500": 1.125rem,
     "400": 1rem,
     "300": 0.925rem,
