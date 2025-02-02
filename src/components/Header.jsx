@@ -5,7 +5,7 @@ export default function Header() {
         <header className="site-header">
             <div className="container" data-type="wide">
                 <div className="site-header__inner">
-                    <a href="">
+                    <a href="#">
                         <img src="/Logo.svg" alt="Jose ARQ" />
                     </a>
                     <Nav />
