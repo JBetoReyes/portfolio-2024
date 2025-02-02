@@ -1,0 +1,30 @@
+$mac-red: #fc6058;
+$mac-yellow: #fec02f;
+$mac-green: #2aca3e;
+
+.mac-header {
+    display: flex;
+    justify-content: space-between;
+
+    &__buttons {
+        display: flex;
+    }
+
+    &__button {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 5px;
+        list-style: none;
+
+        &:nth-child(1) {
+            background-color: $mac-red;
+        }
+        &:nth-child(2) {
+            background-color: $mac-yellow;
+        }
+        &:nth-child(3) {
+            background-color: $mac-green;
+        }
+    }
+}
