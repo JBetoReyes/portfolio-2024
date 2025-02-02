@@ -34,4 +34,21 @@
       color: $button-primary-color-hover;
     }
   }
+
+  &[data-type="icon"] {
+    background-color: transparent;
+    color: $button-icon-color;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: $button-icon-size;
+    height: $button-icon-size;
+    outline: none;
+
+    &:is(:hover) {
+      cursor: pointer;
+      color: $button-icon-color-active;
+    }
+
+  }
 }

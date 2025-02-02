@@ -6,8 +6,8 @@ $active-theme: $light;
 $enable-media-query-dark-mode: false;
 
 // Contextual
-$color-text-default: $color-neutral-700;
-$color-background-default: $color-primary-100;
+$color-text-default: $color-neutral-900;
+$color-background-default: $color-neutral-200;
 $color-text-interactive-default: $color-accent-400;
 $color-text-interactive-hover: $color-accent-500;
 
@@ -70,17 +70,17 @@ $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
 // site header
-$site-header-background-color: $color-primary-300;
-$site-header-color: $color-neutral-900;
-$site-header-padding: $size-8 0;
+$site-header-background-color: $color-nav-background;
+$site-header-color: $color-nav-color;
+$site-header-padding: $size-4 0;
 $site-header-margin: 0;
 $site-header-jusitifcation-small-screens: center;
-$site-header-jusitifcation-large-screens: space-between;
+$site-header-jusitifcation-large-screens: left;
 $site-header-alignment: center;
 
 //navigation
 $navigation-color: $site-header-color;
-$navigation-color-hover: $color-primary-300;
+$navigation-color-hover: $color-nav-color-active;
 $navigation-font-size: $font-size-400;
 $navigation-gap: $size-9;
 $navigation-link-text-decoration: none;
@@ -112,6 +112,11 @@ $button-primary-color: $color-neutral-100;
 $button-primary-background: $color-primary-700;
 $button-primary-color-hover: $color-neutral-100;
 $button-primary-background-hover: $color-primary-800;
+
+$button-icon-size: 2.125rem;
+$button-icon-color: $site-header-color;
+$button-icon-color-active: $color-nav-color-active;
+$button-icon-color-hover: $color-nav-color-active;
 
 // cards
 $card-flow-spacing: $size-2;
