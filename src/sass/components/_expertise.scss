@@ -1,0 +1,9 @@
+.expertise {
+    &__list {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        column-gap: 5rem;
+        row-gap: 3rem;
+    }
+}
