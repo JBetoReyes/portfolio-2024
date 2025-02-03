@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 
 export default function Projects() {
     const style = {
-        '--min-grid-auto-width': '350px',
+        '--min-grid-auto-width': '450px',
         '--grid-column-gap': '5rem',
     };
     return (
