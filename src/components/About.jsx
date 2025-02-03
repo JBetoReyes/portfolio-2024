@@ -2,7 +2,7 @@ import Card from './Card';
 
 export default function About() {
     return (
-        <section className="about">
+        <section id="about" className="about">
             <div className="container" data-type="wide">
                 <div className="grid-auto-fit margin-block-start-10">
                     <Card headingText="More about me" headingClasses="clr-primary-200">
