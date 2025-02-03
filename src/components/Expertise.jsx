@@ -24,7 +24,7 @@ export default function Expertise() {
         'New Relic'
     ];
     return (
-        <section className="expertise | margin-block-start-10">
+        <section id="expertise" className="expertise | margin-block-start-10">
             <div className="container" data-type="wide">
                 <Card headingText="Top Expertise" headingClasses="clr-primary-400" >
                     <ul className="expertise__list | fs-700 margin-block-start-10 margin-inline-11">
