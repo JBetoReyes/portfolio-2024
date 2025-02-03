@@ -2,7 +2,13 @@
 
 .project-card {
 
-    width: 470px;
+    @include mq(small) {
+        width: 350px;
+    }
+
+    @include mq(medium) {
+        width: 450px;
+    }
 
     &__image {
         height: 250px;

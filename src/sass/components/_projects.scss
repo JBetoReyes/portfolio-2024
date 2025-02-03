@@ -1,5 +1,13 @@
+@use "../abstracts/" as *;
+
 .projects {
     &__list {
-        
+        justify-items: center;
+        @include mq(small) {
+            padding-inline: 1rem; 
+        }
+        @include mq(medium) {
+            padding-inline: 5rem;
+        }
     }
 }
