@@ -1,0 +1,19 @@
+@use '../abstracts/' as *;
+
+.about {
+    &__contact-info {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: $size-8;
+    }
+    &__email,
+    &__linkedin,
+    &__github {
+        display: flex;
+        align-items: center;
+        gap: $size-4;
+    }
+}
