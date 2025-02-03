@@ -21,7 +21,9 @@ export default function About() {
                         <ul className="about__contact-info | margin-block-start-8">
                             <li className="about__email | flex-group">
                                 <img src="./mail.svg" alt="Email" />
-                                <p>Josereyes55@hotmail.com</p>
+                                <p>
+                                    <a href="mailto:Josereyes55@hotmail.com" className="clr-primary-300">Josereyes55@hotmail.com</a>
+                                </p>
                             </li>
                             <li className="about__linkedin | flex-group">
                                 <img src="./linkedin.svg" alt="LinkedIn" />

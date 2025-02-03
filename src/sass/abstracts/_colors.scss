@@ -6,10 +6,10 @@ $-clr-gray-300: hsl(0 0% 70%);
 $-clr-gray-400: hsl(0 0% 60%);
 $-clr-gray-500: hsl(0 0% 50%);
 $-clr-gray-600: hsl(0 0% 40%);
-$-clr-gray-700: hsl(0 0% 30%);
-$-clr-gray-800: #2D2D2D;
-$-clr-gray-900: #1E1E1E;
-$-clr-black: #111111;
+$-clr-gray-700: #2D2D2D;
+$-clr-gray-800: #1E1E1E;
+$-clr-gray-900: #111111;
+$-clr-black: #000000;
 $-clr-orange-100: hsl(24 75% 95%);
 $-clr-orange-200: hsl(24 75% 82.5%);
 $-clr-orange-300: hsl(24 75% 70%);
@@ -183,7 +183,7 @@ $light: (
     "900": $-clr-blue-900,
   ),
   "nav": (
-    "background": $-clr-gray-800,
+    "background": $-clr-gray-700,
     "color": $-clr-gray-100,
     "color-active": $-clr-gray-300,
   )
@@ -226,7 +226,7 @@ $dark: (
     "100": $-clr-aqua-100,
   ),
   "nav": (
-    "background": $-clr-gray-800,
+    "background": $-clr-gray-700,
     "color": $-clr-gray-100,
     "color-active": $-clr-gray-300,
   )
