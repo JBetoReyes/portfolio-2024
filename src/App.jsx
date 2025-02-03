@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import MacHeader from './components/MacHeader'
 import About from './components/About'
 import Expertise from './components/Expertise'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <About />
         <Expertise />
+        <Projects />
       </main>
     </>
   )

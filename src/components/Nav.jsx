@@ -4,7 +4,7 @@ export default function Nav() {
             <ul className='nav | flex-group '>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#expertise">Expertise</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
             <div className="hamburger" >
                 <span className="bar"></span>
