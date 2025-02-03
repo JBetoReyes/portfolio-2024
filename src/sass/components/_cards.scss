@@ -11,7 +11,14 @@
   line-height: $card-line-height;
   box-shadow: $card-shadow;
   border-radius: $card-border-radius;
-  min-height: 32rem;
+  
+  @include mq(small) {
+    min-height: 20rem;
+  }
+
+  @include mq(large) {
+    min-height: 32rem;
+  }
 
   &__heading {
     @include heading($card-heading-font-size, $card-heading-color-default);

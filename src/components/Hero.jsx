@@ -14,10 +14,10 @@ export default function Hero() {
                         <img className='mx-auto' src="./me.svg" alt="Jose Reyes" />
                     </div>
                     <Card headingText={HeadingText} headingClasses="clr-primary-100">
-                        <p>
-                            I'm a multidisciplinary developer <br/> specialized in 
+                        <p className="fs-700">
+                            I'm a multidisciplinary developer specialized in 
                             <span className="fw-bold">
-                             {" "} NodeJS, Angular and <br/> ReactJS
+                             {" "} NodeJS, Angular and ReactJS
                             </span>
                         </p>
                     </Card>
