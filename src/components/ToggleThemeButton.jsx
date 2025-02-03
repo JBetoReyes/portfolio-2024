@@ -16,7 +16,7 @@ export default function ToggleThemeButton() {
     const themeIcon = theme === 'light' ? 'moon' : 'sun';
 
     return (
-        <div className="toggle-theme-button | margin-inline-start-auto">
+        <div className="toggle-theme-button">
             <button className={`button theme-button theme-button__${themeIcon}`} type="button" aria-label="Toggle Theme" data-type="icon" onClick={toggleTheme}/>
         </div>
     )

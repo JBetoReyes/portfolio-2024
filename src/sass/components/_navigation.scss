@@ -1,10 +1,62 @@
 @use "../abstracts" as *;
 
+nav {
+  display: flex;
+  gap: $size-8;
+  justify-content: space-between;
+  align-items: start;
+
+  @include mq(medium) {
+    align-items: $site-header-alignment;
+    justify-content: $site-header-jusitifcation-large-screens;
+  }
+}
+
 .nav {
   --flex-column-gap: #{$navigation-gap};
   list-style: none;
   font-family: $navigation-font-family;
   font-weight: $navigation-font-weight;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--flex-column-gap, $flex-group-gap);
+  row-gap: var(--flex-row-gap, calc($flex-group-gap / 2));
+
+
+
+  li:last-child {
+    @include mq(medium) {
+      margin-inline-start: auto;
+    }
+  }
+
+
+
+  .site-header & {
+    position: absolute;
+    flex-direction: column;
+    left: calc(-100% - calc($navigation-mobile-padding * 2));
+    top: calc(6rem);
+    background-color: $site-header-background-color;
+    // width: calc(100% - calc($navigation-mobile-padding * 2));
+    width: 100%;
+    padding: $navigation-mobile-padding;
+    align-items: center;
+    row-gap: $navigation-row-gap;
+    transition: all .3s ease-in-out;
+
+
+    @include mq(medium) {
+        position: unset;
+        flex-direction: row;
+        padding: unset;
+        width: 100%;
+    }
+  }
+
+  &.active {
+    left: 0;
+  }
 
   a {
     color: $navigation-color;

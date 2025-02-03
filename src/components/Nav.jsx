@@ -1,12 +1,23 @@
+import { useState } from 'react';
+import ToggleThemeButton from './ToggleThemeButton';
+
 export default function Nav() {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleMenu = () => {
+        setIsOpen(isOpen => !isOpen);
+    };
     return (
-        <nav className="margin-inline-start-13" aria-label="primary navigation">
-            <ul className='nav | flex-group '>
+        <nav aria-label="primary navigation">
+            <a href="#">
+                <img src="./Logo.svg" alt="Jose ARQ" />
+            </a>
+            <ul className={`nav | ${isOpen ? 'active' : ''}`}>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#expertise">Expertise</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><ToggleThemeButton /></li>
             </ul>
-            <div className="hamburger" >
+            <div className="hamburger" onClick={toggleMenu}>
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>

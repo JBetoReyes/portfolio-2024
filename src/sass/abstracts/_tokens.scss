@@ -73,6 +73,8 @@ $container-max-width-wide: 89rem;
 $site-header-background-color: $color-nav-background;
 $site-header-color: $color-nav-color;
 $site-header-padding: $size-4 0;
+$site-header-padding-block: $size-8;
+$site-header-padding-inline: 0;
 $site-header-margin: 0;
 $site-header-jusitifcation-small-screens: center;
 $site-header-jusitifcation-large-screens: left;
@@ -86,6 +88,11 @@ $navigation-gap: $size-9;
 $navigation-link-text-decoration: none;
 $navigation-font-family: $body-font-family;
 $navigation-font-weight: $body-font-weight;
+$navigation-mobile-padding: $size-8;
+$navigation-row-gap: $size-8;
+
+// hamburger
+$hamburger-bar-background-color: $color-nav-color;
 
 // site footer
 $footer-background-color: $color-primary-300;
