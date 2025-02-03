@@ -4,7 +4,7 @@
     &__list {
         justify-items: center;
         @include mq(small) {
-            padding-inline: 1rem; 
+            padding-inline: 0; 
         }
         @include mq(medium) {
             padding-inline: 5rem;
