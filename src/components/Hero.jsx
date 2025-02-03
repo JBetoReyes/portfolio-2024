@@ -17,8 +17,14 @@ export default function Hero() {
                         <p className="fs-700">
                             I'm a multidisciplinary developer specialized in 
                             <span className="fw-bold">
-                             {" "} NodeJS, Angular and ReactJS
+                             {" "} NodeJS, Angular and ReactJS.
                             </span>
+                            <br/>
+                            <br/>
+                            Senior <span className="fw-bold">Frontend Developer</span> · {" "}
+                            <span className='fw-bold'>Certified Cloud</span> Engineer · {" "}
+                            <span className='fw-bold'>Javascript Expert</span> · {" "}
+                            Technical <span className='fw-bold'>Book Reviewer</span>
                         </p>
                     </Card>
                 </div>
