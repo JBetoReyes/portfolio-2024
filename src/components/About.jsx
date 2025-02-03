@@ -20,17 +20,17 @@ export default function About() {
                     <Card headingText="Find me on" headingClasses="clr-primary-300">
                         <ul className="about__contact-info | margin-block-start-8">
                             <li className="about__email | flex-group">
-                                <img src="./mail.svg" alt="Email" />
+                                <span className="icon-mail" />
                                 <p>
                                     <a href="mailto:Josereyes55@hotmail.com" className="clr-primary-300">Josereyes55@hotmail.com</a>
                                 </p>
                             </li>
                             <li className="about__linkedin | flex-group">
-                                <img src="./linkedin.svg" alt="LinkedIn" />
+                                <span className="icon-linkedin" />
                                 <p><a href="https://www.linkedin.com/in/josealbertoquevedo/" className="clr-primary-300">/in/josealbertoquevedo/</a></p>
                             </li>
                             <li className="about__github | flex-group">
-                                <img src="./github.svg" alt="GitHub" />
+                                <span className="icon-github" />
                                 <p><a href="https://github.com/JBetoReyes" className="clr-primary-300">github.com/JBetoReyes/</a></p>
                             </li>
                         </ul>
