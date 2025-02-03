@@ -1,6 +1,12 @@
 @use "../abstracts/" as *;
 
 .projects {
+    .card {
+        padding: 1rem;
+        @include mq(medium) {
+            padding: 2rem; 
+        }
+    }
     &__list {
         justify-items: center;
         @include mq(small) {
