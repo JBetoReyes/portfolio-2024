@@ -10,7 +10,7 @@ export default function Projects() {
         <section id="projects" className="projects | margin-block-start-10">
             <div className="container" data-type="wide">
                 <Card headingText="Personal Projects" headingClasses="clr-primary-500" >
-                    <div className='projects__list | grid-auto-fit margin-block-start-10' style={style}>
+                    <div className='projects__list | grid-auto-fit margin-block-10' style={style}>
                         <ProjectCard 
                             iconName="poke-app"
                             title="Poke App" 
