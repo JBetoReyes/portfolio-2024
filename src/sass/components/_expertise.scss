@@ -1,9 +1,25 @@
+@use "../abstracts" as *;
+
 .expertise {
     &__list {
         list-style: none;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        column-gap: 5rem;
         row-gap: 3rem;
+        grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+
+        // hide from the eleventh item onwards
+        & li:nth-child(n+11) {
+            display: none;
+        }
+
+        @include mq(medium) {
+            column-gap: 5rem;
+            margin-inline: 4rem;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            & li:nth-child(n+11) {
+                display: block;
+            }
+        }
+
     }
 }

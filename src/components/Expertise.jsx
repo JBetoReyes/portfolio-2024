@@ -4,19 +4,19 @@ export default function Expertise() {
     const expertise = [
         'Javasrcript',
         'Typescript',
+        'React',
+        'Angular',
+        'Node JS',
         'Mong DB',
         'SQL',
         'HTML / CSS',
-        'Node JS',
         'Docker',
         'VUE',
         'Java',
         'Postgres',
         'AWS Lambda',
         'Spring Boot',
-        'React',
         'Python',
-        'Angular',
         'EC2',
         'Terraform',
         'ECS',
@@ -27,7 +27,7 @@ export default function Expertise() {
         <section id="expertise" className="expertise | margin-block-start-10">
             <div className="container" data-type="wide">
                 <Card headingText="Top Expertise" headingClasses="clr-primary-400" >
-                    <ul className="expertise__list | fs-700 margin-block-10 margin-inline-11">
+                    <ul className="expertise__list | fs-700 margin-block-10 text-center">
                         {expertise.map((item, index) => (
                             <li key={index}>{item}</li>
                         ))}
