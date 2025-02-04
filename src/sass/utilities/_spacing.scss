@@ -44,6 +44,103 @@
       margin-inline: $size-value;
     }
   }
+
+  @include mq(small) {
+    .margin {
+      &-sm-#{$size-name} {
+        margin: $size-value;
+      }
+
+      &-sm-block-start-#{$size-name} {
+        margin-block-start: $size-value;
+      }
+
+      &-sm-block-end-#{$size-name} {
+        margin-block-end: $size-value;
+      }
+
+      &-sm-block-#{$size-name} {
+        margin-block: $size-value;
+      }
+
+      &-sm-inline-start-#{$size-name} {
+        margin-inline-start: $size-value;
+      }
+
+      &-sm-inline-end-#{$size-name} {
+        margin-inline-end: $size-value;
+      }
+      
+      &-sm-inline-#{$size-name} {
+        margin-inline: $size-value;
+      }
+    }
+  }
+
+  @include mq(medium) {
+    .margin {
+      &-md-#{$size-name} {
+        margin: $size-value;
+      }
+
+      &-md-block-start-#{$size-name} {
+        margin-block-start: $size-value;
+      }
+
+      &-md-block-end-#{$size-name} {
+        margin-block-end: $size-value;
+      }
+
+      &-md-block-#{$size-name} {
+        margin-block: $size-value;
+      }
+      
+      &-md-inline-start-#{$size-name} {
+        margin-inline-start: $size-value;
+      }
+
+      &-md-inline-end-#{$size-name} {
+        margin-inline-end: $size-value;
+      }
+
+      &-md-inline-#{$size-name} {
+        margin-inline: $size-value;
+      }
+    }
+  }
+
+  @include mq(large) {
+    .margin {
+      &-lg-#{$size-name} {
+        margin: $size-value;
+      }
+
+      &-lg-block-start-#{$size-name} {
+        margin-block-start: $size-value;
+      }
+
+      &-lg-block-end-#{$size-name} {
+        margin-block-end: $size-value;
+      }
+
+      &-lg-block-#{$size-name} {
+        margin-block: $size-value;
+      }
+
+      &-lg-inline-start-#{$size-name} {
+        margin-inline-start: $size-value;
+      }
+
+      &-lg-inline-end-#{$size-name} {
+        margin-inline-end: $size-value;
+      }
+
+      &-lg-inline-#{$size-name} {
+        margin-inline: $size-value;
+      }
+    }
+  }
+
   .padding {
     &-#{$size-name} {
       padding: $size-value;
@@ -65,6 +162,102 @@
     }
     &-inline-#{$size-name} {
       padding-inline: $size-value;
+    }
+  }
+
+  @include mq(small) {
+    .padding {
+      &-sm-#{$size-name} {
+        padding: $size-value;
+      }
+
+      &-sm-block-start-#{$size-name} {
+        padding-block-start: $size-value;
+      }
+
+      &-sm-block-end-#{$size-name} {
+        padding-block-end: $size-value;
+      }
+
+      &-sm-block-#{$size-name} {
+        padding-block: $size-value;
+      }
+
+      &-sm-inline-start-#{$size-name} {
+        padding-inline-start: $size-value;
+      }
+
+      &-sm-inline-end-#{$size-name} {
+        padding-inline-end: $size-value;
+      }
+
+      &-sm-inline-#{$size-name} {
+        padding-inline: $size-value;
+      }
+    }
+  }
+
+  @include mq(medium) {
+    .padding {
+      &-md-#{$size-name} {
+        padding: $size-value;
+      }
+
+      &-md-block-start-#{$size-name} {
+        padding-block-start: $size-value;
+      }
+
+      &-md-block-end-#{$size-name} {
+        padding-block-end: $size-value;
+      }
+
+      &-md-block-#{$size-name} {
+        padding-block: $size-value;
+      }
+
+      &-md-inline-start-#{$size-name} {
+        padding-inline-start: $size-value;
+      }
+
+      &-md-inline-end-#{$size-name} {
+        padding-inline-end: $size-value;
+      }
+
+      &-md-inline-#{$size-name} {
+        padding-inline: $size-value;
+      }
+    }
+  }
+
+  @include mq(large) {
+    .padding {
+      &-lg-#{$size-name} {
+        padding: $size-value;
+      }
+
+      &-lg-block-start-#{$size-name} {
+        padding-block-start: $size-value;
+      }
+
+      &-lg-block-end-#{$size-name} {
+        padding-block-end: $size-value;
+      }
+
+      &-lg-block-#{$size-name} {
+        padding-block: $size-value;
+      }
+
+      &-lg-inline-start-#{$size-name} {
+        padding-inline-start: $size-value;
+      }
+
+      &-lg-inline-end-#{$size-name} {
+        padding-inline-end: $size-value;
+      }
+
+      &-lg-inline-#{$size-name} {
+        padding-inline: $size-value;
+      }
     }
   }
 }

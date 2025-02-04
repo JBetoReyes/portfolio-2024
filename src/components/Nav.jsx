@@ -11,7 +11,7 @@ export default function Nav() {
             <a href="#">
                 <img src="./Logo.svg" alt="Jose ARQ" />
             </a>
-            <ul className={`nav | ${isOpen ? 'active' : ''}`}>
+            <ul className={`nav | fs-500 ${isOpen ? 'active' : ''}`}>
                 <li onClick={toggleMenu}><a href="#about">About Me</a></li>
                 <li onClick={toggleMenu}><a href="#expertise">Expertise</a></li>
                 <li onClick={toggleMenu}><a href="#projects">Projects</a></li>

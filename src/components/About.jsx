@@ -18,7 +18,7 @@ export default function About() {
                         </p>
                     </Card>
                     <Card headingText="Find me on" headingClasses="clr-primary-300">
-                        <ul className="about__contact-info | margin-block-start-8">
+                        <ul className="about__contact-info | margin-md-block-8">
                             <li className="about__email | flex-group">
                                 <span className="icon-mail" />
                                 <p>
