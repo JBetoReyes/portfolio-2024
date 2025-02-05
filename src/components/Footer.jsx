@@ -5,7 +5,7 @@ export default function Footer() {
                 <a href="#">
                     <img src="./Logo.svg" alt="Jose ARQ" />
                 </a>
-                <p>
+                <p className="fs-500">
                     &copy; 2025 Jose ARQ. All rights reserved.
                 </p>
             </div>
