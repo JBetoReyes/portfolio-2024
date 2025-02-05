@@ -58,8 +58,9 @@ $heading-3-font-size: $font-size-700;
 $heading-3-color: $heading-color-default;
 
 // layout
-$grid-gap: $size-11;
-$flex-group-gap: $size-4;
+$section-row-gap: $size-8;
+$grid-gap: $size-4;
+$flex-group-gap: $section-row-gap;
 
 $hero-padding-block: clamp(15rem, 15vh, 20rem);
 $section-padding-block: clamp(5rem, 10vh, 6rem);
@@ -128,6 +129,8 @@ $button-icon-color-hover: $color-nav-color-active;
 // cards
 $card-flow-spacing: $size-8;
 $card-padding: $size-8;
+$card-padding-inline-default: $size-4;
+$card-padding-inline-medium: $size-8;
 $card-shadow: $box-shadow-1;
 $card-border-radius: $border-radius-2;
 $card-background-default: $color-neutral-100;

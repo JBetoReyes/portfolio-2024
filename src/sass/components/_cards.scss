@@ -4,13 +4,13 @@
   display: grid;
   grid-template-rows: auto 1fr;
   gap: $card-flow-spacing;
-  padding: $card-padding;
   background-color: $card-background-default;
   font-family: $card-font-family;
   color: $card-color-default;
   line-height: $card-line-height;
   box-shadow: $card-shadow;
   border-radius: $card-border-radius;
+  padding: $card-padding $card-padding-inline-default;
   
   @include mq(small) {
     min-height: 20rem;
@@ -18,6 +18,7 @@
 
   @include mq(large) {
     min-height: 32rem;
+    padding-inline: $card-padding-inline-medium;
   }
 
   &__heading {

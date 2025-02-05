@@ -11,7 +11,17 @@
         min-width: 450px;
     }
 
+    @include mq(large) {
+        // odd childs
+        &:nth-child(odd) {
+            justify-self: end;
+        }
 
+        // even childs
+        &:nth-child(even) {
+            justify-self: start;
+        }
+    }
 
     body[data-theme="light"] & {
         $icon-color: map.get($light, "neutral", "100");
@@ -70,8 +80,6 @@
         background-size: contain;
         background-position: center;
     }
-
-
 
     &__link {
         color: $color-neutral-900;

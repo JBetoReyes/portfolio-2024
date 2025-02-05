@@ -5,9 +5,10 @@ export default function Projects() {
     const style = {
         '--min-grid-auto-width': '450px',
         '--grid-column-gap': '5rem',
+        '--grid-row-gap': 'var(--section-gap)'
     };
     return (
-        <section id="projects" className="projects | margin-block-start-10">
+        <section id="projects" className="projects | margin-block-start-8 margin-md-block-start-10">
             <div className="container" data-type="wide">
                 <Card headingText="Personal Projects" headingClasses="clr-primary-500" >
                     <div className='projects__list | grid-auto-fit margin-md-block-10' style={style}>

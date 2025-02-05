@@ -1,10 +1,13 @@
 import Card from './Card';
 
 export default function About() {
+    const style = {
+        '--grid-gap': 'var(--section-gap)'
+    };
     return (
         <section id="about" className="about">
             <div className="container" data-type="wide">
-                <div className="grid-auto-fit margin-block-start-10">
+                <div className="grid-auto-fit margin-block-start-8 margin-md-block-start-10" style={style}>
                     <Card headingText="More about me" headingClasses="clr-primary-200">
                         <p>
                             Results-driven Senior Software Engineer with <span className="fw-bold">8+ years of expertise</span>{" "} 

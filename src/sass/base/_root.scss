@@ -30,6 +30,12 @@
       }
     }
   }
+
+  --section-gap: #{$section-row-gap};
+
+  @include mq(medium) {
+    --section-gap: 3rem;
+  }
 }
 
 body[data-theme="light"] {
