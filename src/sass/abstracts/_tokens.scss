@@ -96,8 +96,9 @@ $navigation-row-gap: $size-8;
 $hamburger-bar-background-color: $color-nav-color;
 
 // site footer
-$footer-background-color: $color-primary-300;
-$footer-text-color: $color-primary-900;
+$footer-background-color: $color-nav-background;
+$footer-text-color: $color-nav-color;
+$footer-padding: $size-4 0;
 $footer-link-color: $color-neutral-100;
 $footer-link-color-hover: $color-primary-200;
 $footer-link-font-family: $font-family-accent;

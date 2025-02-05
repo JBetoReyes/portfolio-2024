@@ -4,7 +4,7 @@ import MacHeader from './components/MacHeader'
 import About from './components/About'
 import Expertise from './components/Expertise'
 import Projects from './components/Projects'
-
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -17,6 +17,7 @@ function App() {
         <Expertise />
         <Projects />
       </main>
+      <Footer />
     </>
   )
 }

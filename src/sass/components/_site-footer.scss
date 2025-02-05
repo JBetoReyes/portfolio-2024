@@ -3,15 +3,16 @@
 .site-footer {
   background-color: $footer-background-color;
   color: $footer-text-color;
+  padding: $footer-padding;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $size-4;
+  }
 
   a {
-    color: $footer-link-color;
-    text-decoration: $footer-link-text-decoration;
-    font-family: $footer-link-font-family;
-    letter-spacing: $letter-spacing-loose;
-
-    &:is(:hover, :focus) {
-      color: $footer-link-color-hover;
-    }
+    display: inline-block;
   }
 }
