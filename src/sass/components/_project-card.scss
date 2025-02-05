@@ -48,8 +48,7 @@
     }
 
     body[data-theme="dark"] & {
-        @debug &;
-        $icon-color: map.get($dark, "neutral", "100");
+         $icon-color: map.get($dark, "neutral", "100");
 
         &__poke-app-icon {
             background-image: url("data:image/svg+xml,%3Csvg width='170' height='232' viewBox='0 0 170 232' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M53.2353 227L99.0844 198.682L138.748 176.502L106.459 150.775L156.325 126.278L104.415 99.3274L164.5 55.2247L94.6049 5L5.5 100.551L86.8381 128.319L62.7728 156.156L95.6943 173.1L44.8708 218.274L53.2353 227Z' stroke='#{$icon-color}' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
