@@ -15,31 +15,31 @@ export default function Projects() {
                         <ProjectCard 
                             iconName="poke-app"
                             title="Poke App" 
-                            description="Small pet project that I created while I was learning React Hooks, API, Request Infinity scroll, multipage aplication, search bars" 
+                            description="A personal project I built while learning React Hooks, APIs, infinite scrolling, multi-page applications, and search bar implementation." 
                             link="https://www.pokeapp.josearq.com/" 
                         />
                         <ProjectCard 
                             iconName="brand-boosters"
                             title="Brand Boosters" 
-                            description="Small pet project that I created while I was learning React Hooks, API, Request Infinity scroll, multipage aplication, search bars" 
+                            description="Multi page application with responsive design, that includes a pricing table, price comparison table, built with React, sass, and javascript" 
                             link="https://jbetoreyes.github.io/beyond-brand-boosters/"
                         />
                         <ProjectCard
                             iconName="barbershop"
                             title="Barbershop"
-                            description="Small pet project that I created while I was learning React Hooks, API, Request Infinity scroll, multipage aplication, search bars"
+                            description="Mock barbershop website with responsive design, multi theme, form validation, built with HTML, CSS, and javascript"
                             link="https://jbetoreyes.github.io/beyond-barber/"
                         />
                         <ProjectCard
                             iconName="cheff"
                             title="Cheff"
-                            description="Small pet project that I created while I was learning React Hooks, API, Request Infinity scroll, multipage aplication, search bars"
+                            description="Restaurant landing page with responsive design, built with HTML, CSS, and javascript"
                             link="https://jbetoreyes.github.io/beyond-css-cheff/"
                         />
                         <ProjectCard 
                             iconName="workit"
                             title="Workit" 
-                            description="Small pet project that I created while I was learning React Hooks, API, Request Infinity scroll, multipage aplication, search bars" 
+                            description="Mock startup website with responsive design, built with HTML, CSS, and javascript" 
                             link="https://jbetoreyes.github.io/beyond-workit-landing-page/"  
                         />
                     </div>
