@@ -2,12 +2,12 @@ import Card from './Card';
 
 export default function Expertise() {
     const expertise = [
-        'Javasrcript',
+        'Javascript',
         'Typescript',
         'React',
         'Angular',
         'Node JS',
-        'Mong DB',
+        'Mongo DB',
         'SQL',
         'HTML / CSS',
         'Docker',
